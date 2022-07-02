@@ -1,3 +1,13 @@
+import requests
+from urllib.request import Request, urlopen
+from bs4 import BeautifulSoup
+import pandas as pd
+from random import randint
+from time import sleep
+from datetime import datetime
+import warnings
+warnings.filterwarnings("ignore")
+
 ####################################
 # Choose which page to scrape
 x = 1
